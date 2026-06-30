@@ -264,7 +264,7 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
 .contact {
   position: relative;
   min-height: clamp(190px, 18vw, 290px);
-  background: url("Contact block background копия(3).jpg") center center / cover no-repeat;
+  background: url("assets/Contact block background копия(3).jpg") center center / cover no-repeat;
   text-align: center;
   padding: clamp(32px, 4vw, 64px) 0 clamp(26px, 4vw, 58px);
   overflow: hidden;
