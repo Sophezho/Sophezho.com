@@ -387,8 +387,7 @@ footer {
   .lightbox__nav--prev { left: 10px; }
   .lightbox__nav--next { right: 10px; }
   .lightbox__close { top: 10px; right: 12px; }
-}
-.wire--about-left,
+  .wire--about-left,
   .wire--about-right {
     width: 80px !important;
     height: 60px !important;
@@ -421,6 +420,7 @@ footer {
     left: 8px !important;
     top: 6px !important;
   }
+}
 .fade-section {
   opacity: 0;
   transform: translateY(40px);
