@@ -388,3 +388,13 @@ footer {
   .lightbox__nav--next { right: 10px; }
   .lightbox__close { top: 10px; right: 12px; }
 }
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
