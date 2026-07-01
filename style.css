@@ -387,13 +387,7 @@ footer {
   .lightbox__nav--prev { left: 10px; }
   .lightbox__nav--next { right: 10px; }
   .lightbox__close { top: 10px; right: 12px; }
-  .wire--about-left,
-  .wire--about-right {
-    width: 80px !important;
-    height: 60px !important;
-    opacity: 0.25 !important;
-  }
-@media (max-width: 760px) {
+
   .wire--about-left,
   .wire--about-right {
     width: 80px !important;
