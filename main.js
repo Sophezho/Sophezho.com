@@ -311,7 +311,7 @@
       }, delay);
     };
   }
-  (function initFadeAnimations() {
+(function initFadeAnimations() {
   const sections = document.querySelectorAll('.fade-section');
 
   if (!sections.length || !('IntersectionObserver' in window)) return;
