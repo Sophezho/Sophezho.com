@@ -393,32 +393,52 @@ footer {
     height: 60px !important;
     opacity: 0.25 !important;
   }
+@media (max-width: 760px) {
+  .wire--about-left,
+  .wire--about-right {
+    width: 80px !important;
+    height: 60px !important;
+    opacity: 0.3 !important;
+  }
 
   .wire--about-left {
-    left: -10px !important;
-    top: 10px !important;
+    left: 0 !important;
+    top: 5px !important;
   }
 
   .wire--about-right {
-    right: -10px !important;
-    bottom: 10px !important;
-    transform: rotate(2deg) !important;
+    right: 0 !important;
+    bottom: 5px !important;
+    transform: rotate(0deg) !important;
   }
 
-  .wire::before,
-  .wire::after {
-    width: 80px !important;
-    box-shadow: 0 12px 0 #57575a, 0 24px 0 #57575a, 0 36px 0 #57575a !important;
+  .wire--about-left::before,
+  .wire--about-left::after,
+  .wire--about-right::before,
+  .wire--about-right::after {
+    width: 70px !important;
+    height: 1px !important;
+    box-shadow: 0 14px 0 #57575a, 0 28px 0 #57575a, 0 42px 0 #57575a !important;
   }
 
-  .wire::before {
-    transform: rotate(18deg) !important;
+  .wire--about-left::before {
+    transform: rotate(20deg) !important;
   }
 
-  .wire::after {
-    transform: rotate(-18deg) !important;
-    left: 8px !important;
-    top: 6px !important;
+  .wire--about-left::after {
+    transform: rotate(-20deg) !important;
+    left: 10px !important;
+    top: 8px !important;
+  }
+
+  .wire--about-right::before {
+    transform: rotate(-20deg) !important;
+  }
+
+  .wire--about-right::after {
+    transform: rotate(20deg) !important;
+    left: 10px !important;
+    top: 8px !important;
   }
 }
 .fade-section {
