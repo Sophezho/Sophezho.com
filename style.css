@@ -367,7 +367,7 @@ footer {
     padding: 48px 24px 58px;
     row-gap: 28px;
   }
-  .about__photo { width: min(46vw, 190px); margin: 0 auto; }
+  .about__photo { width: min(38vw, 150px); margin: 0 auto 12px; }
   .about__text-wrap { width: min(100%, 360px); margin: 0 auto; }
   .about h2 { font-size: 36.7px; }
   .about p { font-size: 13px; line-height: 1.25; }
