@@ -439,7 +439,8 @@ footer {
   .about__photo {
     position: relative;
     z-index: 1;
-  }
+   }
+}
 .fade-section {
   opacity: 0;
   transform: translateY(40px);
