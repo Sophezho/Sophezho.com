@@ -94,10 +94,6 @@ window.PORTFOLIO_GALLERIES = [
         "alt": "Graphic Design 2"
       },
       {
-        "src": "assets/graphic/graphic-03.jpg",
-        "alt": "Graphic Design 3"
-      },
-      {
         "src": "assets/graphic/graphic-04.jpg",
         "alt": "Graphic Design 4"
       },
@@ -108,10 +104,6 @@ window.PORTFOLIO_GALLERIES = [
       {
         "src": "assets/graphic/graphic-06.jpg",
         "alt": "Graphic Design 6"
-      },
-      {
-        "src": "assets/graphic/graphic-07.jpg",
-        "alt": "Graphic Design 7"
       },
       {
         "src": "assets/graphic/graphic-08.jpg",
