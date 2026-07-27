@@ -86,6 +86,10 @@ window.PORTFOLIO_GALLERIES = [
     "title": "Graphic Design",
     "items": [
       {
+    "src": "assets/graphic/Moto.jpg",
+    "alt": "Moto.jpg"
+      },
+      {
         "src": "assets/graphic/graphic-01.jpg",
         "alt": "Graphic Design 1"
       },
