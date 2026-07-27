@@ -102,10 +102,6 @@ window.PORTFOLIO_GALLERIES = [
         "alt": "Graphic Design 2"
       },
       {
-        "src": "assets/graphic/graphic-04.jpg",
-        "alt": "Graphic Design 4"
-      },
-      {
         "src": "assets/graphic/graphic-05.jpg",
         "alt": "Graphic Design 5"
       },
