@@ -86,12 +86,20 @@ window.PORTFOLIO_GALLERIES = [
     "title": "Graphic Design",
     "items": [
       {
-        "src": "assets/graphic/UFC3.jpg",
-        "alt": "UFC3.jpg"
+        "src": "assets/graphic/GraphCompilation_0.jpg",
+        "alt": "GraphCompilation_0.jpg"
       },
       {
-        "src": "assets/graphic/Moto.jpg",
-        "alt": "Moto.jpg"
+        "src": "assets/graphic/GraphCompilation_2.jpg",
+        "alt": "GraphCompilation_2.jpg"
+      },
+      {
+        "src": "assets/graphic/GraphCompilation_3.jpg",
+        "alt": "GraphCompilation_3.jpg"
+      },
+      {
+        "src": "assets/graphic/GraphCompilation_4.jpg",
+        "alt": "GraphCompilation_4.jpg"
       }
     ]
   },
