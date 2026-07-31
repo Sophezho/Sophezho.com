@@ -20,8 +20,8 @@ window.PORTFOLIO_GALLERIES = [
         "alt": "Illustration 18"
       },
       {
-        "src": "assets/illustration/illustration-19.jpg",
-        "alt": "Illustration 19"
+        "src": "assets/illustration/Comp5.jpg",
+        "alt": "Comp5"
       }
     ]
   },
