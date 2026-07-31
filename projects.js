@@ -127,57 +127,9 @@ window.PORTFOLIO_GALLERIES = [
         "src": "assets/murals/murals-05.jpg",
         "alt": "Mural 5"
       },
-      {
-        "src": "assets/murals/murals-06.jpg",
-        "alt": "Mural 6"
-      },
-      {
-        "src": "assets/murals/murals-07.jpg",
-        "alt": "Mural 7"
-      },
-      {
-        "src": "assets/murals/murals-08.jpg",
-        "alt": "Mural 8"
-      },
-      {
-        "src": "assets/murals/murals-09.jpg",
-        "alt": "Mural 9"
-      },
-      {
-        "src": "assets/murals/murals-10.jpg",
-        "alt": "Mural 11"
-      },
-      {
-        "src": "assets/murals/murals-11.jpg",
-        "alt": "Mural 12"
-      },
-      {
-        "src": "assets/murals/murals-12.jpg",
-        "alt": "Mural 13"
-      },
-      {
-        "src": "assets/murals/murals-13.jpg",
-        "alt": "Mural 14"
-      },
-      {
-        "src": "assets/murals/murals-14.jpg",
-        "alt": "Mural 15"
-      },
-      {
-        "src": "assets/murals/murals-15.jpg",
-        "alt": "Mural 16"
-      },
-      {
-        "src": "assets/murals/murals-16.jpg",
-        "alt": "Mural 17"
-      },
-      {
-        "src": "assets/murals/murals-17.jpg",
-        "alt": "Mural 18"
-      },
-      {
-        "src": "assets/murals/murals-18.jpg",
-        "alt": "Mural  10"
+     {
+        "src": "assets/murals/MuralComp_2.jpg",
+        "alt": "MuralComp_2"
       }
     ]
   }
