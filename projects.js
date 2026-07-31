@@ -94,53 +94,7 @@ window.PORTFOLIO_GALLERIES = [
     "alt": "Moto.jpg"
       },
       {
-        "src": "assets/graphic/graphic-01.jpg",
-        "alt": "Graphic Design 1"
-      },
-      {
-        "src": "assets/graphic/graphic-02.jpg",
-        "alt": "Graphic Design 2"
-      },
-      {
-        "src": "assets/graphic/graphic-05.jpg",
-        "alt": "Graphic Design 5"
-      },
-      {
-        "src": "assets/graphic/graphic-06.jpg",
-        "alt": "Graphic Design 6"
-      },
-      {
-        "src": "assets/graphic/graphic-08.jpg",
-        "alt": "Graphic Design 8"
-      },
-      {
-        "src": "assets/graphic/graphic-09.jpg",
-        "alt": "Graphic Design 9"
-      },
-      {
-        "src": "assets/graphic/graphic-10.jpg",
-        "alt": "Graphic Design 10"
-      },
-      {
-        "src": "assets/graphic/graphic-11.jpg",
-        "alt": "Graphic Design 11"
-      },
-      {
-        "src": "assets/graphic/graphic-12.jpg",
-        "alt": "Graphic Design 12"
-      },
-      {
-        "src": "assets/graphic/graphic-13.jpg",
-        "alt": "Graphic Design 13"
-      },
-      {
-        "src": "assets/graphic/graphic-14.jpg",
-        "alt": "Graphic Design 14"
-      },
-      {
-        "src": "assets/graphic/graphic-15.jpg",
-        "alt": "Graphic Design 15"
-      }
+
     ]
   },
   {
