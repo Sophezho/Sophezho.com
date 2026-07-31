@@ -4,72 +4,16 @@ window.PORTFOLIO_GALLERIES = [
     "title": "Illustration & Music Art",
     "items": [
       {
-        "src": "assets/illustration/illustration-01.jpg",
-        "alt": "Illustration 1"
+        "src": "assets/illustration/CompMusic1.jpg",
+        "alt": "CompMusic1"
       },
-      {
-        "src": "assets/illustration/illustration-02.jpg",
-        "alt": "Illustration 2"
+       {
+        "src": "assets/illustration/CompMusic2.jpg",
+        "alt": "CompMusic2"
       },
-      {
-        "src": "assets/illustration/illustration-03.jpg",
-        "alt": "Illustration 3"
-      },
-      {
-        "src": "assets/illustration/illustration-04.jpg",
-        "alt": "Illustration 4"
-      },
-      {
-        "src": "assets/illustration/illustration-05.jpg",
-        "alt": "Illustration 5"
-      },
-      {
-        "src": "assets/illustration/illustration-06.jpg",
-        "alt": "Illustration 6"
-      },
-      {
-        "src": "assets/illustration/illustration-07.jpg",
-        "alt": "Illustration 7"
-      },
-      {
-        "src": "assets/illustration/illustration-08.jpg",
-        "alt": "Illustration 8"
-      },
-      {
-        "src": "assets/illustration/illustration-09.jpg",
-        "alt": "Illustration 9"
-      },
-      {
-        "src": "assets/illustration/illustration-10.jpg",
-        "alt": "Illustration 10"
-      },
-      {
-        "src": "assets/illustration/illustration-11.jpg",
-        "alt": "Illustration 11"
-      },
-      {
-        "src": "assets/illustration/illustration-12.jpg",
-        "alt": "Illustration 12"
-      },
-      {
-        "src": "assets/illustration/illustration-13.jpg",
-        "alt": "Illustration 13"
-      },
-      {
-        "src": "assets/illustration/illustration-14.jpg",
-        "alt": "Illustration 14"
-      },
-      {
-        "src": "assets/illustration/illustration-15.jpg",
-        "alt": "Illustration 15"
-      },
-      {
-        "src": "assets/illustration/illustration-16.jpg",
-        "alt": "Illustration 16"
-      },
-      {
-        "src": "assets/illustration/illustration-17.jpg",
-        "alt": "Illustration 17"
+       {
+        "src": "assets/illustration/CompMusic3.jpg",
+        "alt": "CompMusic3"
       },
       {
         "src": "assets/illustration/illustration-18.jpg",
