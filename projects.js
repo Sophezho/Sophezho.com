@@ -94,7 +94,6 @@ window.PORTFOLIO_GALLERIES = [
     "alt": "Moto.jpg"
       },
       {
-
     ]
   },
   {
