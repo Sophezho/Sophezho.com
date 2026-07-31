@@ -52,24 +52,16 @@ window.PORTFOLIO_GALLERIES = [
     "title": "Street Art & Murals",
     "items": [
       {
-        "src": "assets/murals/murals-01.jpg",
-        "alt": "Mural 1"
-      },
-      {
-        "src": "assets/murals/murals-02.jpg",
-        "alt": "Mural 2"
-      },
-      {
-        "src": "assets/murals/murals-03.jpg",
-        "alt": "Mural 3"
-      },
-      {
-        "src": "assets/murals/murals-04.jpg",
-        "alt": "Mural 4"
+        "src": "assets/murals/MuralComp_3.jpg",
+        "alt": "MuralComp_3"
       },
       {
         "src": "assets/murals/murals-05.jpg",
         "alt": "Mural 5"
+      },
+      {
+        "src": "assets/murals/murals-04.jpg",
+        "alt": "Mural 4"
       },
      {
         "src": "assets/murals/MuralComp_2.jpg",
