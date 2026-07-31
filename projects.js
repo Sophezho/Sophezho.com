@@ -130,6 +130,10 @@ window.PORTFOLIO_GALLERIES = [
      {
         "src": "assets/murals/MuralComp_2.jpg",
         "alt": "MuralComp_2"
+      },
+       {
+        "src": "assets/murals/MuralComp_1.jpg",
+        "alt": "MuralComp_1"
       }
     ]
   }
