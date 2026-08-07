@@ -117,14 +117,14 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
 }
 
 .about__header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 565fr 247fr; /* та же сетка, что и у .about__row — колонки совпадают по X */
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
+  gap: clamp(10px, 1.39vw, 16px);
 }
 .about__header h2 {
   margin: 0;
+  padding-left: clamp(14px, 1.8vw, 22px); /* = левый padding карточек, имя встаёт вровень с текстом внутри */
   font-size: clamp(24px, 4.02vw, 45px);
   line-height: 1;
   font-weight: 800;
@@ -134,6 +134,7 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  padding-left: clamp(14px, 1.8vw, 22px); /* = левый padding карточки Languages, тот же принцип */
   color: var(--orange);
   font-weight: 700;
   font-size: clamp(14px, 2.06vw, 23px);
@@ -474,7 +475,8 @@ footer {
     gap: 24px;
   }
   .about__photo { width: min(60vw, 240px); margin: 0 auto; aspect-ratio: 3 / 4; }
-  .about__header { justify-content: center; text-align: center; flex-direction: column; gap: 8px; }
+  .about__header { grid-template-columns: 1fr; justify-items: center; text-align: center; gap: 8px; }
+  .about__header h2, .about__instagram { padding-left: 0; }
   .about__row { grid-template-columns: 1fr; }
   .about__languages ul { white-space: normal; }
   .about__logos { justify-content: center; }
