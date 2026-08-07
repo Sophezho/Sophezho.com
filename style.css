@@ -97,6 +97,11 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   gap: clamp(12px, 1.53vw, 18px);
   align-items: start;
 }
+.about__photo-col {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(10px, 1.25vw, 18px); /* тот же вертикальный шаг, что и у .about__content */
+}
 .about__photo {
   aspect-ratio: 3 / 4;
   border-radius: 10px;
@@ -108,6 +113,21 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   height: 100%;
   object-fit: cover;
   display: block;
+}
+.about__resume {
+  display: block;
+  text-align: center;
+  padding: clamp(10px, 1.2vw, 14px) 0;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+  color: var(--orange);
+  font-weight: 700;
+  font-size: clamp(14px, 1.6vw, 18px);
+  transition: background-color .15s ease, color .15s ease;
+}
+.about__resume:hover {
+  background: var(--orange);
+  color: #000;
 }
 
 .about__content {
@@ -474,7 +494,8 @@ footer {
     grid-template-columns: 1fr;
     gap: 24px;
   }
-  .about__photo { width: min(60vw, 240px); margin: 0 auto; aspect-ratio: 3 / 4; }
+  .about__photo-col { width: min(60vw, 240px); margin: 0 auto; }
+  .about__photo { width: 100%; aspect-ratio: 3 / 4; }
   .about__header { grid-template-columns: 1fr; justify-items: center; text-align: center; gap: 8px; }
   .about__header h2, .about__instagram { padding-left: 0; }
   .about__row { grid-template-columns: 1fr; }
