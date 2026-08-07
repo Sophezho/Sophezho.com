@@ -196,11 +196,11 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   flex-shrink: 0;
 }
 
-.about__clients .about__logos { gap: clamp(8px, 1.04vw, 12px); }
+.about__clients .about__logos { gap: clamp(7px, 0.9vw, 10px); }
 .about__clients .about__logos img {
-  height: clamp(40px, 7.85vw, 88px);
+  height: clamp(33px, 6.52vw, 73px); /* -17%, чтобы 6-й логотип + «…» помещались в одну строку */
   width: auto;
-  max-width: clamp(60px, 9vw, 128px);
+  max-width: clamp(50px, 7.5vw, 106px);
   object-fit: contain;
 }
 
