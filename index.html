@@ -51,28 +51,46 @@
         </div>
       </div>
 
-      <div class="about__card about__logos-card">
-        <h3 class="accent">Clients:</h3>
+      <div class="about__card about__logos-card about__clients">
         <div class="about__logos">
+          <h3 class="accent">Clients:</h3>
           <img src="assets/client-interscope.png" alt="Interscope Records" />
           <img src="assets/client-pepsi.png" alt="Pepsi" />
           <img src="assets/client-universal.png" alt="Universal" />
           <img src="assets/client-redbull.png" alt="Red Bull" />
           <img src="assets/client-1k.png" alt="1K" />
-          <span class="about__more">…</span>
+          <div class="about__more-wrap">
+            <button type="button" class="about__more" aria-haspopup="true" aria-expanded="false">…</button>
+            <div class="about__popover" role="menu">
+              <ul>
+                <!-- Добавляйте сюда новых клиентов простым текстом, по одному на строку -->
+                <li>Client Name</li>
+                <li>Another Client</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="about__card about__logos-card">
-        <h3 class="accent">Tools:</h3>
+      <div class="about__card about__logos-card about__tools">
         <div class="about__logos">
+          <h3 class="accent">Tools:</h3>
           <img src="assets/tool-photoshop.png" alt="Adobe Photoshop" />
           <img src="assets/tool-illustrator.png" alt="Adobe Illustrator" />
           <img src="assets/tool-indesign.png" alt="Adobe InDesign" />
           <img src="assets/tool-figma.png" alt="Figma" />
           <img src="assets/tool-ai.png" alt="Adobe After Effects" />
           <img src="assets/tool-tablet.png" alt="Graphic Tablet" />
-          <span class="about__more">…</span>
+          <div class="about__more-wrap">
+            <button type="button" class="about__more" aria-haspopup="true" aria-expanded="false">…</button>
+            <div class="about__popover" role="menu">
+              <ul>
+                <!-- Добавляйте сюда другие инструменты простым текстом, по одному на строку -->
+                <li>Tool Name</li>
+                <li>Another Tool</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
