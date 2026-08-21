@@ -34,10 +34,6 @@ window.PORTFOLIO_GALLERIES = [
         "alt": "GraphCompilation_0.jpg"
       },
       {
-        "src": "assets/graphic/GraphCompilation_2.jpg",
-        "alt": "GraphCompilation_2.jpg"
-      },
-      {
         "src": "assets/graphic/GraphCompilation_3.jpg",
         "alt": "GraphCompilation_3.jpg"
       },
