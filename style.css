@@ -254,13 +254,13 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
 /* ===== Works ===== */
 .works {
   background: #000;
-  padding: clamp(31px, 5vw, 86px) 0 clamp(67px, 7vw, 120px);
+  padding: clamp(8px, 1.5vw, 30px) 0 clamp(67px, 7vw, 120px);
   overflow: hidden;
 }
 .works > h2 {
   margin: 0 0 45px;
   text-align: center;
-  font-size: clamp(31px, 3.4vw, 58px);
+  font-size: clamp(24px, 4.02vw, 45px);
   line-height: 1;
   font-weight: 800;
   letter-spacing: -1px;
@@ -479,8 +479,8 @@ footer {
   }
   .about__more-wrap.is-open .about__popover { transform: translate(-50%, 0); }
 
-  .works { padding-top: 42px; }
-  .works > h2 { font-size: 34px; margin-bottom: 38px; }
+  .works { padding-top: 16px; }
+  .works > h2 { font-size: 24px; margin-bottom: 38px; }
 }
 .fade-section {
   opacity: 0;
