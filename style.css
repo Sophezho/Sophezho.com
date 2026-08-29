@@ -65,22 +65,6 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   text-shadow: 0 1px 6px rgba(0,0,0,.65);
 }
 
-/* ===== Wire decoration ===== */
-.wire { position: absolute; pointer-events: none; opacity: .35; overflow: hidden; }
-.wire::before, .wire::after {
-  content: "";
-  position: absolute;
-  width: 220px;
-  height: 1px;
-  background: #57575a;
-  transform-origin: left center;
-  box-shadow: 0 20px 0 #57575a, 0 40px 0 #57575a, 0 60px 0 #57575a;
-}
-.wire::before { transform: rotate(22deg); }
-.wire::after { transform: rotate(-24deg); left: 18px; top: 12px; }
-.wire--contact-left { width: 230px; height: 120px; left: 0; top: 1px; }
-.wire--contact-right { width: 250px; height: 120px; right: 0; bottom: 12px; transform: rotate(5deg); }
-
 /* ===== About (new, matched to Figma proportions) ===== */
 .about {
   position: relative;
