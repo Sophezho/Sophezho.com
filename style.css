@@ -311,7 +311,7 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, rgba(0,0,0,.78) 0%, rgba(120,58,10,.5) 45%, rgba(255,100,11,.32) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,.85) 0%, rgba(120,58,10,.65) 45%, rgba(255,100,11,.42) 100%);
 }
 .works-card__title {
   position: absolute;
@@ -319,6 +319,7 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   font-size: clamp(18px, 2vw, 26px);
   font-weight: 800;
   line-height: 1.15;
+  text-align: center;
   text-shadow: 0 2px 10px rgba(0,0,0,.6);
 }
 .works-card__count {
