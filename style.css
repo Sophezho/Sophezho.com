@@ -253,7 +253,7 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
 
 /* ===== Works ===== */
 .works {
-  background: #050505;
+  background: #000;
   padding: clamp(31px, 5vw, 86px) 0 clamp(67px, 7vw, 120px);
   overflow: hidden;
 }
