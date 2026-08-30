@@ -315,7 +315,7 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
 }
 
 /* ---- Feed view: header + masonry lane + nav pills ---- */
-.works-feed { display: none; }
+.works-feed { display: none; overflow-anchor: none; }
 .works-feed__header {
   cursor: pointer;
   text-align: center;
@@ -367,6 +367,7 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
 .works-nav__pill.is-active { background: var(--orange); color: #151519; border-color: var(--orange); }
 
 .works-masonry {
+    overflow-anchor: none;
   column-count: 2;
   column-gap: 12px;
 }
