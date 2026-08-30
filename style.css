@@ -313,15 +313,6 @@ button { font: inherit; border: 0; padding: 0; background: none; color: inherit;
   text-align: center;
   text-shadow: 0 2px 10px rgba(0,0,0,.6);
 }
-.works-card__count {
-  position: absolute;
-  bottom: 20px; left: 22px;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: .4px;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.85);
-}
 
 /* ---- Feed view: header + masonry lane + nav pills ---- */
 .works-feed { display: none; }
