@@ -455,13 +455,14 @@ footer {
   .hero h1 { font-size: clamp(42px, 12vw, 74px); }
   .hero__subtitle { font-size: clamp(15px, 4.3vw, 22px); }
   .hero__tagline { font-size: clamp(11px, 3.2vw, 15px); }
+    .hero { background-image: url("assets/hero-bg-mobile.jpg"); }
 
   .about { padding: 40px 0 48px; }
   .about__inner {
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     gap: 24px;
   }
-  .about__photo { width: min(60vw, 240px); margin: 0 auto; aspect-ratio: 3 / 4; }
+  .about__photo { width: 130px; margin: 0 auto; aspect-ratio: 1 / 1; border-radius: 50%; }
   .about__header { grid-template-columns: 1fr; justify-items: center; text-align: center; gap: 8px; }
   .about__header h2, .about__instagram { padding-left: 0; }
   .about__row { grid-template-columns: 1fr; }
