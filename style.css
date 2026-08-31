@@ -467,11 +467,13 @@ footer {
   .about__header h2, .about__instagram { padding-left: 0; }
   .about__row { grid-template-columns: 1fr; }
   .about__languages ul { white-space: normal; }
+    .about__languages { text-align: center; }
+    .about__languages ul { align-items: center; }
   .about__logos { justify-content: center; }
   .about__logos h3 { width: 100%; text-align: center; margin-bottom: 6px; }
   .about__more-wrap { margin-left: 0; }
   .about__popover {
-    right: auto;
+      right: auto;
     left: 50%;
     bottom: auto;
     top: calc(100% + 10px);
